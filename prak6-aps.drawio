@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T15:27:25.038Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="XBeoUgFf0BEgdgsOCcYf" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T15:31:32.209Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="nKnafA4lFm8ZQwIgwD2z" version="17.2.4" type="github">
   <diagram id="AlCFMFMvlPKh5fdOvYJY" name="Page-1">
-    <mxGraphModel dx="981" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,6 +283,48 @@
             <mxPoint x="1619.5" y="830" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1460" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-68" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="620" width="20" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-69" value="::Sistem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="620" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-70" value="Mengakses SIstem" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-68" target="w_HtO38fSdfE2Lv-nTIq-69">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1860" y="880" as="sourcePoint" />
+            <mxPoint x="1940" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2010" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-72" value="Menampilkan Menu Publikasi" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-69" target="w_HtO38fSdfE2Lv-nTIq-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2180" y="760" as="sourcePoint" />
+            <mxPoint x="1860" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2030.5" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-73" value="Submit Form Informasi Kamar" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-68" target="w_HtO38fSdfE2Lv-nTIq-69">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1869.5" y="720" as="sourcePoint" />
+            <mxPoint x="2199.5" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2020" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-74" value="Publikasi Dikirim" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-69" target="w_HtO38fSdfE2Lv-nTIq-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2199.5" y="770" as="sourcePoint" />
+            <mxPoint x="1869.5" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2030" y="870" />
             </Array>
           </mxGeometry>
         </mxCell>
