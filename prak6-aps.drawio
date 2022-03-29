@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T15:17:18.745Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="14lcCPWoClFyU50BbAXS" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T15:18:33.627Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="C-HgdJf27PzukTheQ8tY" version="17.2.4" type="github">
   <diagram id="AlCFMFMvlPKh5fdOvYJY" name="Page-1">
     <mxGraphModel dx="981" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -167,6 +167,17 @@
         <mxCell id="w_HtO38fSdfE2Lv-nTIq-34" value=":Sistem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="940" y="620" width="100" height="380" as="geometry" />
         </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="w_HtO38fSdfE2Lv-nTIq-34">
+          <mxGeometry x="50" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-40" value="Validasi" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="w_HtO38fSdfE2Lv-nTIq-39" parent="w_HtO38fSdfE2Lv-nTIq-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w_HtO38fSdfE2Lv-nTIq-36" value="Memilih Opsi Register" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-27" target="w_HtO38fSdfE2Lv-nTIq-34">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="700.0003448275863" y="700" as="sourcePoint" />
@@ -176,12 +187,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_HtO38fSdfE2Lv-nTIq-37" value="Menampilkan Form Register" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-34">
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-37" value="Menampilkan Form Register" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-34" target="w_HtO38fSdfE2Lv-nTIq-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="934.69" y="740" as="sourcePoint" />
             <mxPoint x="700.0003448275863" y="740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="820.19" y="740" />
+              <mxPoint x="820" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-38" value="Submit Form Register" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-27" target="w_HtO38fSdfE2Lv-nTIq-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="700.0003448275863" y="780" as="sourcePoint" />
+            <mxPoint x="934.69" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-41" value="Register Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-34" target="w_HtO38fSdfE2Lv-nTIq-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999.5" y="760" as="sourcePoint" />
+            <mxPoint x="709.810344827586" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="910" />
             </Array>
           </mxGeometry>
         </mxCell>
