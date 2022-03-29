@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T14:59:07.788Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="VPUW3UXPZF6s6MEp3HwK" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T15:14:33.887Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="RxOhYqFae8hiN72CDSOR" version="17.2.4" type="github">
   <diagram id="AlCFMFMvlPKh5fdOvYJY" name="Page-1">
     <mxGraphModel dx="981" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,17 +68,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_HtO38fSdfE2Lv-nTIq-11" value="Interaction1 heading" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="1">
-          <mxGeometry x="140" y="890" width="370" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="w_HtO38fSdfE2Lv-nTIq-12" value="Data&#xa;Kredensial &#xa;Benar" style="text" vertex="1" parent="w_HtO38fSdfE2Lv-nTIq-11">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="20" y="40" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w_HtO38fSdfE2Lv-nTIq-13" value="[constraint2]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;" vertex="1" parent="w_HtO38fSdfE2Lv-nTIq-11">
-          <mxGeometry y="75" width="370" height="6.000000000000001" as="geometry" />
-        </mxCell>
         <mxCell id="Qwr74N7xE_Lkuxg0-fRO-22" value="Meminta Permintaan Khusus" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="315" y="140" width="140" height="70" as="geometry" />
         </mxCell>
@@ -101,27 +90,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_HtO38fSdfE2Lv-nTIq-16" value="Login Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="w_HtO38fSdfE2Lv-nTIq-3" target="w_HtO38fSdfE2Lv-nTIq-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="300" as="sourcePoint" />
-            <mxPoint x="-35" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w_HtO38fSdfE2Lv-nTIq-4" value="Menampilkan Menu Login" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-3" target="w_HtO38fSdfE2Lv-nTIq-2">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="360" y="935" as="sourcePoint" />
-            <mxPoint x="440" y="935" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="360" y="700" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="w_HtO38fSdfE2Lv-nTIq-5" value="Submit Form Login" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-2" target="w_HtO38fSdfE2Lv-nTIq-3">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="484.5" y="767" as="sourcePoint" />
             <mxPoint x="249.92857142857133" y="767" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="370" y="760" />
+              <mxPoint x="370" y="780" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -130,16 +104,51 @@
             <mxPoint x="480" y="929.9999999999998" as="sourcePoint" />
             <mxPoint x="249.81034482758605" y="929.9999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="980" />
+              <mxPoint x="350" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_HtO38fSdfE2Lv-nTIq-19" value="Menampilkan Menu Login" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-20" value="Mengakses Sistem" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="474.69" y="1030" as="sourcePoint" />
-            <mxPoint x="240.00034482758605" y="1030" as="targetPoint" />
+            <mxPoint x="240.00034482758628" y="690" as="sourcePoint" />
+            <mxPoint x="474.69" y="690" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="360.19" y="1030" />
+              <mxPoint x="370.19" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-23" value="Menampilkan Form Login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-3" target="w_HtO38fSdfE2Lv-nTIq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="720" as="sourcePoint" />
+            <mxPoint x="240" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-16" value="Login Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-3" target="w_HtO38fSdfE2Lv-nTIq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="920" as="sourcePoint" />
+            <mxPoint x="390" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-11" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="525" y="890" width="370" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-12" value="Data&#xa;Kredensial &#xa;Benar" style="text" vertex="1" parent="w_HtO38fSdfE2Lv-nTIq-11">
+          <mxGeometry width="60" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-13" value="[constraint2]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;" vertex="1" parent="w_HtO38fSdfE2Lv-nTIq-11">
+          <mxGeometry y="100" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-25" value="Menampilkan Form Login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-3" target="w_HtO38fSdfE2Lv-nTIq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484.5" y="1039.9999999999998" as="sourcePoint" />
+            <mxPoint x="249.81034482758628" y="1039.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="1060" />
             </Array>
           </mxGeometry>
         </mxCell>
