@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T15:15:39.991Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="ux8oNWHRFY8K99wNz88Q" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T15:17:18.745Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="14lcCPWoClFyU50BbAXS" version="17.2.4" type="github">
   <diagram id="AlCFMFMvlPKh5fdOvYJY" name="Page-1">
-    <mxGraphModel dx="1673" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,6 +158,30 @@
             <mxPoint x="249.81034482758628" y="1069.9999999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="370" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-27" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="620" width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-34" value=":Sistem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="620" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-36" value="Memilih Opsi Register" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-27" target="w_HtO38fSdfE2Lv-nTIq-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="700.0003448275863" y="700" as="sourcePoint" />
+            <mxPoint x="934.69" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830.19" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_HtO38fSdfE2Lv-nTIq-37" value="Menampilkan Form Register" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="w_HtO38fSdfE2Lv-nTIq-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="934.69" y="740" as="sourcePoint" />
+            <mxPoint x="700.0003448275863" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820.19" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
