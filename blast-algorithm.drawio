@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T03:35:17.261Z" agent="5.0 (X11)" version="18.1.1" etag="LHSs5T5igKtxKy8HW2Jg" type="github"><diagram id="7dMYS_E2rdCoGgtTt4WX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-30T04:25:46.841Z" agent="5.0 (X11)" etag="CIdqfc2UGHoZU6ECPia4" version="18.1.1" type="github">
+  <diagram id="7dMYS_E2rdCoGgtTt4WX" name="Page-1">
+    <mxGraphModel dx="3435" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qUcbhF8aczEerCNHmDN--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--1" target="qUcbhF8aczEerCNHmDN--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--1" value="Menghilangkan repetisi &lt;i&gt;region &lt;/i&gt;atau &lt;i&gt;sequence &lt;/i&gt;dengan kompleksitas rendah dalam &lt;i&gt;query sequence&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--2" target="qUcbhF8aczEerCNHmDN--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--2" value="Membuat sebuah list berisikan k-huruf kata dari &lt;i&gt;query sequence&lt;/i&gt;." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--3" target="qUcbhF8aczEerCNHmDN--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--3" value="Urutkan kemungkinan kata yang sesuai" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--4" target="qUcbhF8aczEerCNHmDN--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--4" value="Atur sisa kata yang memiliki skor tinggi ke dalam &lt;i&gt;search tree&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--9" value="Pindai &lt;i&gt;sequence &lt;/i&gt;basis data agar sesuai dengan sisa kata yang memiliki skor tinggi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--13" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=block;html=1;rounded=0;strokeColor=#000000;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--4" target="qUcbhF8aczEerCNHmDN--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="590" as="sourcePoint" />
+            <mxPoint x="260" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="520" />
+              <mxPoint x="-10" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--16" value="Ulangi tahap 3 hingga 4 untuk setiap k-huruf kata dalam &lt;i&gt;query sequence&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="470" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#383838;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--17" target="qUcbhF8aczEerCNHmDN--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--17" value="Perpanjang kecocokan yang tepat pada pasangan HSS (&lt;i&gt;High Score Segments)&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="650" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--9" target="qUcbhF8aczEerCNHmDN--17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="650" as="sourcePoint" />
+            <mxPoint x="270" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#383838;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--28" target="qUcbhF8aczEerCNHmDN--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--28" value="Membuat sebuah list semua HSS dalam basis data yang memiliki skor cukup untuk dipertimbangkan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="730" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#383838;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--30" target="qUcbhF8aczEerCNHmDN--32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--30" value="Evaluasi skor HSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#383838;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--32" target="qUcbhF8aczEerCNHmDN--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--32" value="Membuat dua atau lebih &lt;i&gt;region &lt;/i&gt;HASS pada &lt;i&gt;alignment &lt;/i&gt;yang lebih panjang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="890" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#383838;" edge="1" parent="1" source="qUcbhF8aczEerCNHmDN--33" target="qUcbhF8aczEerCNHmDN--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--33" value="Lihat &lt;i&gt;alignment &lt;/i&gt;lokal pada query dan setiap &lt;i&gt;sequences &lt;/i&gt;basis data yang sama" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="970" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUcbhF8aczEerCNHmDN--34" value="Laporkan setiap hasil yang tidak sesuai, yaitu skor yang diharapkan kurang dari parameter &lt;i&gt;threshold&lt;/i&gt;." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1050" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
